@@ -1,0 +1,33 @@
+body {
+            background-color: #bad4ef;
+        }
+
+        .product-card {
+            transition: transform 0.3s;
+            margin-bottom: 30px;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-img {
+            transition: transform 0.4s;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .product-img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #212529;
+            color: white;
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        .logo {
+            width: 70px;
+        }
